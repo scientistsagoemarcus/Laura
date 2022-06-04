@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+ <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4 ">
+           <div class="container">
+               <a href="indix.html"class="navbar-brand">Sant Ralph</a>
+               <div  id="navmenu">
+                  <ul class="navbar-nav ms auto">
+                   <li class="nav-item">
+                        <a href="indix.html" class="nav-link">About Me</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="contactme.html" class="nav-link">Contact Me</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="register.html" class="nav-link">Register Here</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="login.html" class="nav-link">Login Here</a>
+                   </li>
+                  </ul>
+              </div>
+           </div>
+   </header>
+    <form class="row g-2 needs-validation p-5">
+        <div class="row-sm">
+          <label for="validationt" class="form-label text-danger"><strong>First Name</strong></label><br>
+          <input type="text" class="form-control" id="validationt" required>
+        </div>
+        <div class="row-md-4">
+            <label for="validations" class="form-label text-danger"><strong>Last Name</strong></label><br>
+            <input type="text" class="form-control" id="validations"required>
+          </div>
+          <div class="mb-4">
+            <label for="Input1" class="form-label text-danger"><strong>Email address</strong></label>
+            <input type="email" class="form-control" id="Input1" placeholder="name@example.com"required>
+          </div>
+          <div class="mb-4">
+            <label for="textarea1" class="form-label text-danger"><strong>Message</strong></label>
+            <textarea class="form-control" id="textarea1"required rows="3"></textarea>
+          </div>
+          <div class="container">
+            <button class="btn btn-danger btn-lg btn-outline-primary" type="submit">Submit form</button>
+          </div>
+    </form>
+</body>
+</html>
